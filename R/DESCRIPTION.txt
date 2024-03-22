@@ -1,0 +1,19 @@
+Package: sub-tails
+Version: 0.1.0
+Date: 2024-03-22
+Title: todo
+Description: todo
+Author: todo
+Maintainer: todo
+License: GPL-3
+Depends:
+  R (>= 4.0)
+Imports:
+  reticulate
+Suggests:
+  knitr,
+  markdown
+VignetteBuilder: knitr
+LazyData: true
+Encoding: UTF-8
+RoxygenNote: 7.2.3
