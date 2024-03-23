@@ -1,0 +1,19 @@
+Package: sub-tails
+Version: 0.1.0
+Date: 2024-03-22
+Title: R Submission Assist
+Description: A couple of tools to help make submissions to CTF challenges, such as numpy conversions and built-in datasets
+Author: Turner Haugen <turner.haugen712@gmail.com>, Will Hammond
+Maintainer: Turner Haugen <turner.haugen712@gmail.com>
+License: GPL-3
+Depends:
+  R (>= 4.0)
+Imports:
+  reticulate
+Suggests:
+  knitr,
+  markdown
+VignetteBuilder: knitr
+LazyData: true
+Encoding: UTF-8
+RoxygenNote: 7.2.3
